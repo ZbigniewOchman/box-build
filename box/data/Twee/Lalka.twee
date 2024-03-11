@@ -1,0 +1,101 @@
+:: StoryTitle
+lalka
+
+
+:: StoryData
+{
+  "ifid": "20566405-DB37-4576-9C11-B8DB4D3EFB34",
+  "format": "Harlowe",
+  "format-version": "3.3.8",
+  "start": "Untitled Passage",
+  "zoom": 1
+}
+
+
+:: 00 {"position":"500,600","size":"100,100"}
+Klnąc i sycząc z bólu rozkładasz dłoń i rozluźniasz mięśnie na tyle, by lalka wysunęła się z twojej dłoni, a nadal sterczące z niej kolce - z twojego ciała.
+
+[[dalej|01]]
+
+
+:: 01 {"position":"500,725","size":"100,100"}
+Najeżona kolcami, wciąż jeszcze obscenicznie wystającymi z jej kadłuba lalka zamiera na blacie stołu.
+
+Pułapka? Może... a może za Barierą, w Siedmiu Światach to tego właśnie mają uczyć zabawki dawane dzieciom przez ich opiekunów. 
+
+Że zaufanie, nawet tak przyjaznej i niewinnej rzeczy jak przytulanka, może skończyć się śmiercią, Albo przynajmniej bólem.
+
+1. [[Odejdź]]
+
+
+:: Odejdź {"position":"500,850","size":"100,100"}
+
+
+
+:: Odłóż lalkę na stół {"position":"300,400","size":"100,100"}
+Odkładasz lalkę z powrotem na zakurzony blat. Może uda się ją sprzedać jakiemuś kolekcjonerowi jako ciekawostkę, ale nie wyobrażasz sobie, by ktokolwiek dał za nią fortunę.
+
+
+:: Ostrożnie ściśnij lalkę {"position":"700,400","size":"100,100"}
+W momencie, gdy twoje palce napierają na materiał, czujesz jak zabawka zaczyna lekko drżeć i wibrować. 
+
+1. [[Upuść lalkę]]
+2. [[Ściśnij lalkę jeszcze mocniej|Ściśnij lalkę]]
+
+
+:: Podnieś lalkę {"position":"600,200","size":"100,100"}
+Zabawka jest zaskakująco ciężka, jak gdyby pod warstwami filcu i przyjemnego w dotyku materiału znajdowało się coś jeszcze. 
+
+1. [[Ostrożnie ściśnij lalkę]]
+2. [[Mocno ściśnij lalkę|Ściśnij lalkę]]
+2. [[Przytul lalkę]]
+3. [[Odłóż lalkę na stół]]
+
+
+:: Przyjrzyj się lalce uważniej {"position":"400,250","size":"100,100"}
+Nie jest to piękna zabawka. Kończyny są różnej długości, Jedno oko jest większe od drugiego. Lalka ma też dzwiny garb. Możliwe, że osoba, która wykonała tę zabawkę, nie miała zbyt wiele talentu. A może wręcz przeciwnie, może to tak właśnie wyglądają ludzie po drugiej stronie bariery, a lalka umejtnie odzwierciedla te cechy wyglądu.
+
+1. [[Podnieś lalkę]] 
+2. [[Zostaw lalkę w spokoju]] 
+
+
+:: Przytul lalkę {"position":"800,100","size":"100,100"}
+Uśmiechasz się i obejmujesz zabawkę przedramionami, przyciskając ją do twarzy.
+
+W tym samym moencie czujesz ostry, przeszywający ból. 
+
+Trwa on tylko chwilę. 
+
+Potem nie czujesz już absolutnie niczego.
+
+[[KONIEC GRY]]
+
+
+:: Untitled Passage {"position":"300,100","size":"100,100"}
+Lalka. Nigdy wcześniej nie widziałaś, by z Siedmiu Światow wypadła prawdziwa przytulanka. Przypominasz sobie, że raz, w zniszczonej kapsule ratunkowej odnalazłaś figurkę żołnierza - wyrzeźbioną w jakimś nieznanym ci ciemnym i twardym materiale czwororęczną postać z wybałuszonymi oczami i błyszczącymi zębami. Innym razem udało ci się wydobyć też coś, co mogło być grą planszową. Ale nigdy coś tak... niewinnego jak szmaciana lalka.
+
+Po drugiej stronie są dzieci. Dzieci zrodzone w ogniu bitwy, dzieci wychowywane do walki i śmierci, możliwe, że nawet od pierwszych tygodni swojego życia. 
+
+To nie jest przyjemna myśl, ale to myśl, przed którą trudno jest uciec, szczególnie teraz,  patrząc w czarne, puste oczy tej  szmacianki.
+
+1. [[Podnieś lalkę]]
+2. [[Przyjrzyj się lalce uważniej]]
+3. [[Zostaw lalkę w spokoju]]
+
+
+:: Upuść lalkę {"position":"700,600","size":"100,100"}
+Lalka upada z powrotem na blat. W ostatniej chwili udalo ci się cofnąć rękę - spomiędzy szwów lalki wystrzeliły kolce, zmieniając zabawkę w groteskowego jeża z ostrymi igłami.
+
+[[dalej|01]]
+
+
+:: Zostaw lalkę w spokoju {"position":"100,300","size":"100,100"}
+
+
+
+:: Ściśnij lalkę {"position":"500,400","size":"100,100"}
+Wyczuwasz to - drżący, cylindryczny obiekt we wnętrzu lalki. Jakiś mechanizm, czy..?
+
+Dalsze rozważania przerwa eksplozja bólu. Z lalki niemal bezszelestnie wystrzeliły długie kolce, boleśnie raniąc ci palce i przebijając dłoń w co najmniej czterech miejscach.
+
+[[dalej|00]]
