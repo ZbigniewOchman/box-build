@@ -1,4 +1,3 @@
-const fs = require('fs');
 
 function Scene_RightPanel() {
     this.initialize(...arguments);
