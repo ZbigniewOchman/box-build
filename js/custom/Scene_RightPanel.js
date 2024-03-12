@@ -20,7 +20,7 @@ Scene_RightPanel.prototype.create = async function () {
     Scene_MenuBase.prototype.create.call(this);
     this.addBackground.call(this);
     this.dialogHolders = [];
-    this.twee = await this.tweeReader.ReadFile("data/Twee/lalka.twee", this);
+    this.twee = await this.tweeReader.ReadFile("data/Twee/Lalka.twee", this);
 }
 
 Scene_RightPanel.prototype.tweeData = function (data) {
@@ -67,7 +67,7 @@ Scene_RightPanel.prototype.append = function (text, height, previousHeight) {
 Scene_RightPanel.prototype.addBackground = function () {
     var sprite = new Sprite();
 
-    sprite.bitmap = ImageManager.loadPicture('back');
+    sprite.bitmap = ImageManager.loadPicture('Back');
     sprite.x = Graphics.boxWidth / 2;
 
     this.addChild(sprite);
