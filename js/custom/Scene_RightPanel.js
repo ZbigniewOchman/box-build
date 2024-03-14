@@ -1,9 +1,15 @@
+var panelWidth;
+var panelX;
 
 function Scene_RightPanel() {
     this.initialize(...arguments);
+    this.dialogHolders = [];
     this.tweeReader = new TweeReader();
-    $gamePlayer.center(16, 11);
+    this.options=null;
 
+    $gamePlayer.center(16, 11);
+    panelWidth = Graphics.boxWidth/4;
+    panelX=panelWidth*3;
     SceneManager._scene._spriteset.updatePosition();
 }
 
@@ -16,16 +22,17 @@ Scene_RightPanel.prototype.initialize = function () {
     Scene_MenuBase.prototype.initialize.call(this);
 };
 
-Scene_RightPanel.prototype.create = async function () {
+Scene_RightPanel.prototype.create = function () {
     Scene_MenuBase.prototype.create.call(this);
-    this.addBackground.call(this);
-    this.dialogHolders = [];
-    this.twee = await this.tweeReader.ReadFile("data/Twee/Lalka.twee", this);
+    this.addBackground();
+    this.tweeReader.ReadFile("data/Twee/"+tweefile+".twee", this);
+    this._backgroundFilter.enabled = false;
 }
 
 Scene_RightPanel.prototype.tweeData = function (data) {
     this.twee = data;
-    this.optionSelected("Untitled Passage");
+    var start = this.tweeReader.GetStartPassage(data);
+    this.optionSelected(start);
 }
 
 Scene_RightPanel.prototype.optionSelected = function (option) {
@@ -44,7 +51,7 @@ Scene_RightPanel.prototype.optionSelected = function (option) {
     }
     var previousHeight = 0;
 
-    if (this.options != undefined) {
+    if (this.options != null) {
         previousHeight = this.options.height;
         this.options.close();
     }
@@ -68,10 +75,8 @@ Scene_RightPanel.prototype.addBackground = function () {
     var sprite = new Sprite();
 
     sprite.bitmap = ImageManager.loadPicture('Back');
-    sprite.x = Graphics.boxWidth / 2;
-
+    sprite.x = panelX;
+    sprite.height =Graphics.boxHeight;
     this.addChild(sprite);
-    this._backgroundFilter.enabled = false;
 }
-
 

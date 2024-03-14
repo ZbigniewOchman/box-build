@@ -1,0 +1,114 @@
+:: StoryTitle
+Rozmowa z Serro
+
+
+:: StoryData
+{
+  "ifid": "652ED193-0F97-4029-81E7-8D78C5D17D9B",
+  "format": "Harlowe",
+  "format-version": "3.3.8",
+  "start": "START",
+  "zoom": 1
+}
+
+
+:: "Dokumenty?" {"position":"500,500","size":"100,100"}
+"Listy pożegnalne albo coś w tym rodzaju" Serro wykonuje gest jednym z górnych odnóży, wskazując na kilka pożółkłych kartek leżących na blacie.. "Serro nie wczytywał się za bardzo. Wiesz, jaki jest Serro, wprawiłoby go to w melancholijny nastrój. A gdy Serro wpada w melancholijny nastrój..."
+
+1. [["...Serro staje się prawdziwym wrzodem na dupie?"|07]]
+2. [["...Serro przestaje być produktywny?"|07]]
+3. [["...wszyscy wokół Serro też wpadają w melancholijny nastrój?"|07]]
+
+
+:: "Jakie ustrojstwo?" {"position":"300,500","size":"100,100"}
+"Serro jeszcze nie wie" przyznaje insektoid nieco zawstydzonym głosem, "Serro myśli, że to coś w rodzaju broni. Nie, żeby Serro jakoś specjalnie ryzykował tą hipotezą, bo właściwie wszystko, co wypada zza tej przeklętej bariery jest jakimś rodzajem broni."
+
+"Serro się tym zajmie," dodaje po chwili.
+
+1. [["Długo ci się z tym zejdzie?"|02]]
+
+
+:: "Zabawki?" {"position":"400,500","size":"100,100"}
+"Tylko jedna przetrwała" Serro wskazuje na leżącą na blacie szmacianą lalkę, "Serro nie ma pojęcia czemu wy, humanoidy, bawicie się mniejszymi wersjami samych siebie. To nienaturalne. I trochę upiorne, jeśli Serro może wyrazić swoją skromną i nic nieznaczącą opinię."
+
+1. [["Czy mi się wydaje, czy jesteś dziś nieco bardziej zgryźliwy niż zwykle?"|02]]
+
+
+:: 00 {"position":"400,100","size":"100,100"}
+Nachodzi cię refleksja, że tak naprawdę nie masz pojęcia, ile lat ma Serro. Na jego świecie czas biegnie inaczej niż na tym, z którego pochodzisz ty. Jego gatunek ma inny cykl rozwojowy. Samo pytanie o to, które z was jest starsze... i o ile starsze, skoro już o tym mowa... wydaje się tak skomplikowane, że aż kompletnie abstrakcyjne.
+
+[[Dalej|01]]
+
+
+:: 01 {"position":"400,200","size":"100,100"}
+A jednak, nie potrafisz myśleć o nim w inny sposób niż jak o "starym, dobrym Serro". Coś w jego postawie, sposobie poruszania się i mamrotania nadaje mu aurę zgryźliwej sędziwości.
+
+1. [[Poklep go po ramieniu]]
+2. [["Co tam, robalu?"|Poklep go po ramieniu]]
+3. [["Serro."|Poklep go po ramieniu]]
+
+
+:: 02 {"position":"400,600","size":"100,100"}
+W odpowiedzi Serro wzrusza tylko ramionami. Jesteś niemal pewna, że przejął ten gest od ciebie, jego insektoidalne ciało ewidentnie nie jest przystosowane do tego typu ekspresji. 
+
+Myśląc o tym, nie umiesz nie zastanawiać się nad tym, co ty nieświadomie mogłaś przejąć od niego. Jakie obce, insektoidalne manieryzmy albo nawyki przyswoiłaś sobie obcując z Serro? 
+
+Jak wiele tej Kanny Evey, którą byłaś wcześniej przepadło?
+
+"Hej, Evey?" Serro wyrywa cię z zamyślenia. "Znowu odpływasz? Brałaś dziś leki?"
+
+1. [[Co?|03]]
+2. [[Leki?|03]]
+
+
+
+:: 03 {"position":"400,700","size":"100,100"}
+"Skrzep" Serro patrzy na ciebie podejrzliwie. "Te cholernie drogie tabletki, które pożerają nam trzy czwarte zarobków, ale dzięki którym jeszcze nie rozszarpałaś biednego Serro na strzępy? Jedyny w całym Wieloświecie zamiennik krwi, który potrafisz przyswoić bez ssawek?"
+
+1. [["Wiem, co to Skrzep. Nie traktuj mnie jak idiotki."|04]]
+2. [["Nic mi nie jest."|04]]
+
+
+:: 04 {"position":"400,800","size":"100,100"}
+Serro rzuca ci kolejne ze swoich przenikliwych spojrzeń. 
+
+"Jak uważasz" w końcu ponownie wrusza ramionami, "Możesz zająć się papierami albo tą lalką. Serro bierze na siebie żelastwo."
+
+1. [["Odejdź" (koniec konwersacji)]]
+
+:: "Odejdź" (koniec konwersacji) 
+
+:: 07 {"position":"500,600","size":"100,100"}
+Serro rzuca ci jedno z tych swoich przeciągłych spojrzeń, po czym odwraca się plecami i podnosi upuszczony wcześniej przedmiot.
+
+"Nie płacisz Serro aż tyle, by pozwalać sobie na tego typu komentarze" mamrocze. "Serro ma swoją godność."
+
+1. [["Daj spokój, nie będziech się chyba obrażał?"|02]]
+2. [["...nieważne. Myślisz, że te listy są cokolwiek warte?"|02]]
+3. [["Przepraszam. Nie gniewasz się, prawda?"|02]]
+
+
+:: Poklep go po ramieniu {"position":"400,300","size":"100,100"}
+Serro wzdryga się i wypuszcza z odnóży podłużne oprzyrządownie, nad którym do tej pory pracował. 
+
+"Evey!" skrzeczy, poruszając Żuwaczkami w sposób, który już dawno temu nauczyłaś się rozpoznawać jako oznakę lekkiej irytacji. "Serro tyle razy powtarzał ci, żebyś nie zachodziła go tak znienacka." Serro kręci głową, jego czułki lekko się przy tym kołyszą. "Po tylu latach mogłabyś się nauczyć."
+
+1. [[Wybacz. Wpadło dziś coś ciekawego?]]
+
+
+:: START {"position":"400,0","size":"100,100"}
+"Stary, dobry Serro" myślisz, patrząc na plecy pochylonego nad oprzyrządowaniem i mamroczącego do siebie insektoida. 
+
+[[Dalej|00]]
+
+
+
+
+:: Wybacz. Wpadło dziś coś ciekawego? {"position":"400,400","size":"100,100"}
+Wciąż jeszcze boczący się nieco Serro kiwa głową.
+
+"Serro dał w końcu radę rozpruć tę kapsułę, którą zgarnęliśmy z zagłębia w intruzji Parsifala" chwali się, nie bez dumy, "Było tam trochę dokumentów, jakieś ustrojstwo i kilka zabawek."
+
+1. [["Dokumenty?"]]
+2. [["Jakie ustrojstwo?"]]
+3. [["Zabawki?"]]

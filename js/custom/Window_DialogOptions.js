@@ -1,10 +1,9 @@
-
 function Window_DialogOptions(options, sender) {
     this.options = options;
     this.sender = sender;
     
-    this._x = Graphics.boxWidth /  2;
-    this._width = Graphics.boxWidth / 2;
+    this._x = panelX;
+    this._width = panelWidth;
     
     this._letterWidth = fontSize / 2;
     this._letterHeight = fontSize + 10;
@@ -20,7 +19,7 @@ Window_DialogOptions.prototype.constructor = Window_DialogOptions;
 
 Window_DialogOptions.prototype.initialize = function () {
     const height = (Object.keys(this.options).length + 1) * (this._letterHeight + 4);
-    const rect = new Rectangle(this._x, Graphics.height - yMargin - height, this._width, height);
+    const rect = new Rectangle(this._x+xMargin, Graphics.height - yMargin - height, this._width - (2*xMargin) , height);
     Window_Command.prototype.initialize.call(this, rect);
 };
 

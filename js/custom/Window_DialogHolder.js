@@ -1,10 +1,7 @@
-var fontSize = 14;
-const xMargin = 24;
-const yMargin = 0;
 
 function Window_DialogHolder(text, offset) {
-    this._x = Graphics.boxWidth / 2;
-    this._width = Graphics.boxWidth / 2;
+    this._x = panelX;
+    this._width = panelWidth;
 
     this._letterWidth = fontSize / 2;
     this._letterHeight = fontSize + 10;
@@ -29,10 +26,10 @@ Window_DialogHolder.prototype.initialize = function (text, offset) {
 };
 
 Window_DialogHolder.prototype.drawText = function () {
-    this.contents.fontSize = 14;
+    this.contents.fontSize = fontSize;
 
     for (var i = 0; i < this.lines.length; i++) {
-        this.drawTextEx(this.lines[i], 0, i * this._letterHeight, this._width);
+        this.drawTextEx(this.lines[i], 0+xMargin, i * this._letterHeight, this._width-2*xMargin);
     }
 }
 
@@ -55,8 +52,8 @@ Window_DialogHolder.prototype.processText = function (text) {
 }
 
 Window_DialogHolder.prototype.processLines = function (line) {
-    while (line.length * this._letterWidth > this._width - xMargin) {
-        for (var i = Math.floor((this._width - xMargin) / this._letterWidth); i > 0; i--) {
+    while (line.length * this._letterWidth > this._width - (2*xMargin)) {
+        for (var i = Math.floor(((this._width - (2*xMargin)) / this._letterWidth)); i > 0; i--) {
             if (line[i] == ' ') {
                 this.lines[this.lines.length] = line.substring(0, i);
                 line = line.substring(i + 1);

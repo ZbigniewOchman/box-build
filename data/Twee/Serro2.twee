@@ -1,0 +1,189 @@
+:: StoryTitle
+Rozmowa z Serro 2
+
+
+:: StoryData
+{
+  "ifid": "996B2698-9F39-431E-B097-BFC5ED37FACD",
+  "format": "Harlowe",
+  "format-version": "3.3.8",
+  "start": "START",
+  "zoom": 1
+}
+
+
+:: Ale co? {"position":"700,1000","size":"100,100"}
+Serro spogląda na przenośny terminal obok blatu.
+
+"Ciężko powiedzieć" oznajmia w końcu. "Odczyty są jakieś dziwne. Wynika z nich, że nic nie ma. Czy też raczej tam jest... nic."
+
+1. [[Jak w próżni?]]
+
+
+:: Dalej {"position":"700,1900","size":"100,100"}
+Urządzenie unosi się nad podłogą i rozświetla. Segmenty cylindra obracają się powoli.
+
+"Chwila..." Serro zerka na pulpit. "Coś jest nie tak."
+
+
+:: Dobrze, już dobrze. Załapałam. Zajmiemy się tym wszystkim, gdy już się odkujemy. {"position":"700,1400","size":"100,100"}
+"Nie odkujemy się, jeśli nie uda nam się opchnąć tego złomu" Serro wzdycha rozdzierająco. "Któreś z nas musi tam wleźć i zobaczyć, czym do cholery jest to całe nic."
+
+1. [[Nie brzmi to zbyt bezpiecznie.]]
+
+
+
+:: Dziesięć {"position":"700,200","size":"100,100"}
+"Dokładnie tak!" oznajmia Serro tryumfalnym głosem. "Serro jest cholernym mistrzem technologii, który marnuje się na tym zapomnianym przez bogów zadupiu. Masz szczęście, Evey, że Serro darzy cię tak olbrzymim sentymentem, w przeciwnym wypadku już dawno udałby się w Wieloświat, budując swoją renomę geniusza inżynierii transuniwersalnej"
+
+1. [[Serro... do rzeczy.]]
+
+
+:: Jak w próżni? {"position":"700,1100","size":"100,100"}
+"Nie, nie, nie" kręci głową Serro i przewija odczyty. "Próżnia też jest w końcu czymś. Tymczasem sonda odczytuje... cóż, tylko samą siebie."
+
+1. [[Może uległa uszkodzeniu?]]
+2. [[Może ktoś ją przechwycił?|Może uległa uszkodzeniu?]]
+
+
+:: Jakiś progres? {"position":"500,100","size":"100,100"}
+Serro odwraca się.
+
+"Skoro już o tym mowa, to tak" oznajmia, nie kryjąc dumy. "Powiedz mi, szanowna pani kapitan, jak oszacowałabyś technologiczny geniusz Serro? Tak, powiedzmy, w skali od jednego do dziesięciu?"
+
+1. [[Zero]]
+2. [[Jeden|Zero]]
+3. [[Dwa|Zero]]
+4. [[Trzy]]
+5. [[Cztery|Trzy]]
+6. [[Pięć|Trzy]]
+7. [[Sześć|Trzy]]
+8. [[Siedem]]
+9. [[Osiem|Siedem]]
+10. [[Dziewięć|Siedem]]
+11. [[Dziesięć]]
+12. [[Serro... do rzeczy.]]
+
+
+:: Jesteś pewien? {"position":"300,500","size":"100,100"}
+"Evey..." Serro wywraca oczami. Jako że ma ich trzy pary, wygląda to naprawdę imponująco. "Serro myślał, że kwestię jego niekwestionowanego autorytetu w sprawach niebezpiecznego mamy już przedyskutowaną?"
+
+1. [[Mamy. Dokąd prowadzi ten portal?|W takim razie dokąd prowadzi ten portal?]]
+2. [[Powiedzmy, że nadal mam pewne wątpliwości. Ale trzymajmy się tematu.|W takim razie dokąd prowadzi ten portal?]]
+
+
+:: Masz rację. Właź do środka. {"position":"500,1600","size":"100,100"}
+Serro patrzy na ciebie spode łba.
+
+"Serro myślał, że skoro jesteś nieśmiertelnym wampirem i w ogóle, to może oszczęśdzisz swojemu najlepszemu pracownikowi nadstawiania karku." mówi.
+
+1. [[Słuszna uwaga. Otwieraj portal, tym razem biorę to na siebie.|Zgadzam się. Wchodzę.]]
+2. [[Przestań się mazać i właź do środka. To był w końcu twój pomysł.]]
+
+
+:: Może uległa uszkodzeniu? {"position":"700,1200","size":"100,100"}
+"W takim przypadku wysłałaby sygnał alarmowy" Serro odwraca wzrok od pulpitu i spogląda na ciebie. "Bardzo to wszystko dziwne. Serro nigdy jeszcze czegoś podobnego nie widział. Ale skoro sonda przerwała, to żywa istota też powinna."
+
+1. [[Nie możesz wysłać drugiej sondy?]]
+
+
+:: Myślałam, że wszystkie nieskończoności są... cóż, nieskończone? {"position":"700,800","size":"100,100"}
+Serro ukłąda żuwaczki w grymas uśmiechu.
+
+"To częste nieporozumienie" oznajmia protekcjonalnym tonem. "Nieskończoności są różne. Weźmy na przykład liczby. Nieskończoność ósemek jest większa niż nieskończoność jedynek."
+
+1. [[Nieważne. Czy ten generator jest cokolwiek wart?]]
+2. [[Fascynujące. Co jest w tym kieszonkowym wymiarze?|Nieważne. Czy ten generator jest cokolwiek wart?]]
+
+
+:: Nie brzmi to zbyt bezpiecznie. {"position":"700,1500","size":"100,100"}
+"Nie brzmi" kiwa głową Serro. "Ale Serro nie ma zamiaru ryzykować, że ponownie opchniemy komuś jakieś cudo za ułamek ceny tylko dlatego, bo nie widzieliśmy, z czym właściwie mamy do czynienia."
+
+1. [[Masz rację. Właź do środka.]]
+2. [[Zgadzam się. Wchodzę.]]
+
+
+:: Nie możesz wysłać drugiej sondy? {"position":"700,1300","size":"100,100"}
+"Nie mamy drugiej sondy" Serro wykonuje zamaszysty ruch w stronę spiętrzonej w rogu pomieszczenia sterty rupieci. "Rozbiliśmy zapasową w zeszłym cyklu, gdy chcieliśmy przechwycić tamte odpadki ze szczytowego kłębowiska w białym sektorze, pamiętasz? Skoro już o tym mowa, potrzebujemy też konserwacji podpokładu. I przeglądu silnika. I..."
+
+1. [[Dobrze, już dobrze. Załapałam. Zajmiemy się tym wszystkim, gdy już się odkujemy.]]
+
+
+:: Nieważne. Czy ten generator jest cokolwiek wart? {"position":"700,900","size":"100,100"}
+"Serro nie jest w stanie powiedzieć, dopóki któreś z nas nie wejdzie do środka i nie rozejrzy się tam" oznajmia insektoid. "Serro wysłał tam sondę, ale..."
+
+1. [[Ale co?]]
+2. [[To jakaś brama do Piekła?|Ale co?]]
+3. [[Czekają nas tam jakieś kłopoty?|Ale co?]]
+
+
+:: Przestań się mazać i właź do środka. To był w końcu twój pomysł. {"position":"475,1725","size":"100,100"}
+"Serro się nie maże" mamrocze insektoid, manipulując przyciskami generatora. "Pomijając nawet fakt, że Serro nie ma odpowiednich gruczołów, by to robić.
+
+[[Dalej]]
+
+
+
+:: START {"position":"500,0","size":"100,100"}
+Dostrzegasz subtelną zmianę w zachowaniu insektoida. Jego szczątkowe skrzydełka poruszają się lekko, a żuwaczki pocierają o otwór gębowy wydając przy tym dźwięk, który brzmi niemal jak chichot.
+
+1. [[Jakiś progres?]]
+
+
+:: Serro... do rzeczy. {"position":"500,300","size":"100,100"}
+"Ach, tak, tak" Serro wzdycha i potrząsa głową. "Co to Serro miał ci właściwie powiedzieć? Ach, już pamięta."
+
+Insektoid unosi w swoich odnóżach podłużny cylinder najeżony antenami i przyciskami.
+
+"Ten oto kawałek złomu, który uznaliśmy wcześniej za broń." mówi. "Serro pogrzebał w nim trochę i jest niemal w stu procentach pewien, że to nie broń, tylko coś w rodzaju urządzenia teleportującego."
+
+1. [[Urządzenia teleportującego? Chcesz powiedzieć, że można się za tym przenieść za barierę? Do Siedmiu Światów?]]
+
+
+:: Siedem {"position":"600,200","size":"100,100"}
+Serro kiwa głową na boki, ewidentnie zastanawiając się, jak zaregować na taką ocenę.
+
+"No cóż, powiedzmy, że jest to akceptowalna opinia" przyznaje w końcu. "Choc gdyby Serro mógł pozwolić sobie na lekkie zniuansowanie, rzekłby, że czasami, w niektórych momentach, udaje mu wzbić na wyżyny geniuszu."
+
+1. [[Serro... do rzeczy.]]
+
+
+:: To coś w rodzaju kieszonkowych wymiarów? {"position":"700,700","size":"100,100"}
+"Dokładnie" insektoid ostrożnie odkłada generator na blat. "To fascynująca technologia. Polega na zakrzywianiu spektrum uniwersum w taki sposób, by stworzyć w nim coś w rodzaju fałdy, pod którą wytwarza się bąbel z mikroskopijną nieskończonością.
+
+1. [[Myślałam, że wszystkie nieskończoności są... cóż, nieskończone?]]
+
+
+:: Trzy {"position":"500,200","size":"100,100"}
+"I tu właśnie widać wyraźnie, niczym na twojej humanoidalnej, pięciopalczastej dłoni ewidentny brak zdolności obserwacyjnych" oznajmia insektoid chełpliwie. "Albowiem tak się składa, że Serro jest geniuszem w kwestiach technologicznych. I to mimo faktu, że w głowie Serro nieustannie wybrzmiewa pamięć siedemnastu tysięcy rojów, co zwykle przynosi Serro bardzo dokuczliwe bóle głowy, ale w przypadku kojarzenia i odczytywania zależności, taki brzęczący komitet czasami bardzo się przydaje."
+
+1. [[Serro... do rzeczy.]]
+
+
+:: Urządzenia teleportującego? Chcesz powiedzieć, że można się za tym przenieść za barierę? Do Siedmiu Światów? {"position":"500,400","size":"100,100"}
+"Nie, nie, nie" potrząsa głową insektoid. "To pierwsza rzecz, którą sprawdził Serro po połapaniu się, z czym ma do czynienia. Bez obaw, nie grozi nam, że z tego cacka wyleje się nam na pokład wojna siedmiu Światów.
+
+1. [[Jesteś pewien?]]
+2. [[W takim razie dokąd prowadzi ten portal?]]
+
+
+:: W takim razie dokąd prowadzi ten portal? {"position":"700,600","size":"100,100"}
+Serro podrzuca w odnóżach cylindryczny obiekt.
+
+"Sprawa jest nieco skomplikowana" mówi insektoid. "Serro widział już kiedyś podobną technologię. Lata temu, gdy pracował w stoczni światostatków na Rdzeniu. To generator mikrowszechświatów."
+
+1. [[To coś w rodzaju kieszonkowych wymiarów?]]
+
+
+:: Zero {"position":"400,200","size":"100,100"}
+Serro opuszcza głowę.
+
+"Serro miał nadzieję, że masz o nim odrobinę lepsze mniemanie" mamrocze, "Szczególnie po tylu latach wzorowej pracy..."
+
+1. [[Serro... do rzeczy.]]
+
+
+:: Zgadzam się. Wchodzę. {"position":"900,1700","size":"100,100"}
+"Serro będzie monitorował twoją pozycję z zewnątrz" oznajmia insektoid, stawiając generator na podłodze. "Wyciągnie cię stamtąd, gdy tylko pojawi się choćby cień podejrzenia, że coś jest nie tak."
+
+[[Dalej]]

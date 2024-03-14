@@ -15,6 +15,7 @@ const scriptUrls = [
     "js/rmmz_sprites.js",
     "js/rmmz_windows.js",
     "js/plugins.js",
+    "js/custom/Constants.js",   
     "js/custom/Scene_RightPanel.js",
     "js/custom/Window_DialogHolder.js",
     "js/custom/Window_DialogOptions.js",
