@@ -1,0 +1,207 @@
+:: StoryTitle
+Pudełko w kształcie wojny
+
+
+:: StoryData
+{
+  "ifid": "C91D230B-A79C-41BB-ABF7-840902A99D65",
+  "format": "Harlowe",
+  "format-version": "3.3.8",
+  "start": "01",
+  "zoom": 1
+}
+
+
+:: 01 {"position":"500,0","size":"100,100"}
+Grzechot łańcuchów. To słyszysz jako pierwsze po otworzeniu drzwi celi.
+
+[[Dalej|02]]
+
+
+:: 02 {"position":"500,100","size":"100,100"}
+Nie, to nieprawda. Pierwsze jest bicie twojego serca. Szybkie, głośne, dobitne. Przypomnisz sobie o tym dopiero wiele lat później, w innym miejscu i w innym czasie. Minie wiele lat, nim poukładasz sobie w głowie wydarzenia tego dnia. W czasie długich, bezsennych nocy, gdy twój umysł odtwarzał będzie tę chwilę w nieskończoność, za każdym razem delikatnie przeinaczając fakty.
+
+[[Dalej|03]]
+
+
+:: 03 {"position":"500,200","size":"100,100"}
+Ale to dopiero pieśń przyszłości. Tu i teraz jest tylko grzechot łańcuchów. I bicie twojego serca. 
+
+[[Dalej|04]]
+
+
+:: 04 {"position":"500,300","size":"100,100"}
+Nazywasz się Kanna Evey. To twój ostatni dzień bez bólu.
+
+[[Dalej|05]]
+
+
+:: 05 {"position":"500,400","size":"100,100"}
+Strażnik ostrożnie wchodzi do twojej celi. Nie patrzy ci w oczy. Może ze strachu, może z obrzydzenia. Nie umiesz powiedzieć. 
+
+„Ręce”, rzuca strażnik lekko drżącym tonem.
+
+1.	[[Wyciągnij przed siebie ręce]]
+2.	[[Zaatakuj]]
+
+
+
+:: 06 {"position":"500,600","size":"100,100"}
+NARRACJA: Strażnikowi towarzyszą uzbrojeni ludzie. Rozpoznajesz ich mundury. Osobista straż Wysokiego Magnaterium. Żaden z nich na ciebie nie patrzy, a nawet gdyby to zrobił, i tak nie byłabyś w stanie odczytać z ich twarzy czegokolwiek. Każdy z nich nosi kask z ciemnym wizjerem, całkowicie zasłaniający twarz.
+
+1.	[[Błagam… nie zabierajcie mnie. Zrobię wszystko, przysięgam!|07]]
+2.	[[Magnaterium musi być cholernie przerażone, skoro wysłało po mnie cały batalion.|07]]
+3.	[[(zachowaj milczenie)|07]]
+
+
+
+:: 07 {"position":"500,700","size":"100,100"}
+Strażnicy niewzruszenie prowadzą cię przez korytarz. Jeden z nich kładzie ci dłoń na ramieniu i popycha, zmuszając do szybszego marszu. Nie ma w tym brutalności, co paradoksalnie przeraża cię jeszcze bardziej.
+
+[[Dalej|08]]
+
+
+:: 08 {"position":"500,800","size":"100,100"}
+Sala sądowa przypomina katedrę, w które przyjęłaś Pierwsze Śluby. To dziwne skojarzenie zakotwiczyło się w twojej głowie niemal od razu. Nie umiesz powiedzieć czemu, dzień Pierwszych Ślubów był najszczęśliwszym dniem twojego życia. Jeszcze przed rewolucją, przed walką o lepsze życie dla siebie i innych, jeszcze przed rozpadem całego twojego życia. Przed wkroczeniem na drogę, która doprowadziła cię do sali sądowej.
+
+[[Dalej|09]]
+
+
+:: 09 {"position":"500,900","size":"100,100"}
+Może to dlatego, bo tamtego dnia wnętrze katedry wydawało ci się równie przytłaczające. Może z powodu porannego słońca zalewającego pomieszczenie sądu intensywnym, niemal nieziemskim światłem wyostrzającym wszystkie cienie.
+
+[[Dalej|10]]
+
+
+:: 10 {"position":"500,1000","size":"100,100"}
+Sędzia jest jednym z tych cieni – mikra sylwetka za szerokim stołem. Towarzyszą mu dwie inne osoby. Ich twarzy również nie jesteś w stanie dotrzeć. Dostrzegasz jedynie szczegóły ich ubioru. Połysk medali, lśniące szaty, pierścienie na dłoniach jednego z nich, ostry kąt rogatywki na głowie drugiego.
+
+Szlachcic i wojskowy. 
+
+[[Dalej|11]]
+
+
+:: 11 {"position":"500,1100","size":"100,100"}
+Rozglądasz się wokół. Nigdzie nie dostrzegasz członków ławy przysięgłych, obrońcy, światków, oskarżyciela. O publiczności nawet nie wspominając. To nie sąd. To tylko formalność. Wyrok zapadł już dawno.  
+
+[[Dalej|12]]
+
+
+:: 12 {"position":"500,1200","size":"100,100"}
+Strażnik popycha cię na krzesło. Łańcuchy grzechoczą po raz kolejny. Niemal drwiąco.
+
+[[Dalej|13]]
+
+
+:: 13 {"position":"500,1300","size":"100,100"}
+Słyszysz szelest togi. Sędzia porusza się, porządkując dokumenty.
+
+[[Dalej|14]]
+
+
+:: 14 {"position":"500,1400","size":"100,100"}
+„Oskarżona Kanna Evey,” słyszysz jego drżący, zgrzytliwy głos. „Kobieta, lat trzydzieści siedem, rasa homo vulgaris, oskarżona o morderstwo ze szczególnym okrucieństwem członka rodziny magnackiej i przedstawiciela homo nobilis oraz o bezprecedensową próbę wzniecenia rewolucji przeciwko Magnaterium. Powstań.” 
+
+1.	[[Wstań|16]]
+2.	[[Nie wstawaj|15]]
+
+
+
+:: 15 {"position":"500,1500","size":"100,100"}
+Nie jest to wielkie zwycięstwo, ale te kilka sekund przedłużającej się ciszy sprawia ci cień satysfakcji. Nie możesz oprzeć się wrażeniu, że na twarzy towarzyszącego sędziemu wojskowego dostrzegasz cień uśmiechu. „Straż, najwyraźniej oskarżona nie dosłyszała albo nie zrozumiała polecenia” zgrzytliwy, tym razem nieco poirytowany głos sędziego rozlega się po raz kolejny. „Pomóżcie jej wstać.”
+
+Czujesz jak silna ręka chwyta twoje przedramię i zgniata je brutalnie, ciągnąc cię w górę, do pozycji wyprostowanej. Choć wiesz, że to najmniejsze z twoich zmartwień, nie możesz powstrzymać się od myśli, że zostaną ci po tym siniaki.
+
+[[Dalej|16]]
+
+
+:: 16 {"position":"500,1600","size":"100,100"}
+Sędzia kiwa głową, ukontentowany.
+
+„Doskonale.” mówi. „Jak już mówiliśmy: Kanna Evey, kobieta, lat trzydzieści siedem, rasa homo vulgaris, oskarżona o morderstwo i rewoltę. Na mocy Trybunału, z władzy nadanej nam przez Wielki Protektorat, skazujemy cię na dożywotnie więzienie.”
+
+1.	[[Żądam legalnego procesu, a nie tej parodii!|17]]
+2.	[[Czy… czy jeśli wydam moich wspólników, mogę liczyć na krótszy wyrok?|17]]
+3.	[[Możecie mnie uwięzić, ale nigdy nie ugasicie ognia rewolucji.|17]]
+4.	[[Pierdolcie się.|17]]
+
+
+
+:: 17 {"position":"500,1700","size":"100,100"}
+„Co więcej,” sędzia nie reaguje na twoje słowa, „z uwagi na szczególną wagę twoich czynów, Magnaterium zdecydowało się zastosować wyjątkową formę kary zdrajców.”
+
+[[Dalej|18]]
+
+
+:: 18 {"position":"500,1800","size":"100,100"}
+„Za moment zostaniesz wprowadzona do sali operacyjnej i poddana zabiegowi, w ramach którego lekarz zarazi cię wirusem wampiryzmu, opracowanym za zgodą i z błogosławieństwem Magnaterium. Następnie, gdy proces transformacji dobiegnie końca, chirurg dokona na tobie zabiegu mającego na celu spiłowanie ci kłów oraz chirurgiczne usunięcie ssawek, które wyrosną ci w rezultacie zarażenia.”
+
+[[Dalej|19]]
+
+
+:: 19 {"position":"500,1900","size":"100,100"}
+„W rezultacie staniesz się nieśmiertelną, wiecznie głodną istotą, której trwająca setki, o ile nie tysiące lat egzystencja będzie przesycona bólem, lękiem, głodem i samotnością. Już nigdy nie zobaczysz słońca, nigdy nie zaznasz spokoju duszy, nigdy nie zaspokoisz głodu.”
+
+1.	[[Zrobię wszystko, przysięgam! Będę kolaborować! Jeszcze wielu z nas nie złapaliście, mam dostęp do nazwisk, kontaktów…|20]]
+2.	[[Nie będę ostatnia. Pojawią się następni, ty zasrany śmieciu! Nie możecie traktować nas jak zwierząt!|20]]
+3.	[[(zachowaj milczenie)|20]]
+
+
+
+:: 20 {"position":"500,2000","size":"100,100"}
+„Jako nieczysta istota,” głos sędziego toczy się niczym kamień, „nie będziesz budzić współczucia, ani nawet litości, a jedynie strach i obrzydzenie. Bez kłów i ssawek nie będziesz w stanie zaspokoić żądzy krwi, nawet gdybyś miała ku szansę, a szansy tej” dodaje, nie bez słyszalnej w jego głosie satysfakcji, „nie dostaniesz nigdy.” 
+
+[[Dalej|21]]
+
+
+:: 21 {"position":"500,2100","size":"100,100"}
+„Wniosek o legalizację tej formy kary został przegłosowany dzisiejszego ranka i zostanie zniesiony dzisiejszego wieczoru. Jesteś jedyną osobą w historii naszej cywilizacji, która została w ten sposób potraktowana.”
+
+1.	[[Zaatakuj sędziego]]
+2.	[[Pozostań na swoim miejscu]]
+
+
+
+:: 22 {"position":"500,2300","size":"100,100"}
+Nie pamiętasz pierwszej rzeczy twojego ostatniego dnia bez bólu. Może to było bicie serca, może grzechot łańcuchów. Może szczęk zamka twojej celi. Może coś jeszcze innego.
+
+[[Dalej|23]]
+
+
+:: 23 {"position":"500,2425","size":"100,100"}
+Ostatni dźwięk pamiętasz jednak doskonale. „Niech bogowie mają w opiece twoją przeklętą duszę.” wyrzekł sędzia, na moment nim tracisz przytomność „Chwała Magnaterium.” 
+
+[[Dalej|24]]
+
+
+:: 24 {"position":"500,2550","size":"100,100"}
+
+
+
+:: Pozostań na swoim miejscu {"position":"600,2200","size":"100,100"}
+Czujesz w twoją szyję wbija się igła.
+
+[[Dalej|22]]
+
+
+:: Wyciągnij przed siebie ręce {"position":"500,500","size":"100,100"}
+Kajdany zatrzaskują się na twoich przegubach. Stal jest zimna, ale w jakiś sposób kojąca. Czujesz, że do tego momentu twój los wciąż był jeszcze płynny, nieokreślony. Mógł zdarzyć się cud. Mogła nadejść odsiecz. Teraz jednak, czując jak zimne kleszcze ciągnął w dół twoje nadgarstki, wszystko to znika. Jest tylko droga długim ciasnym korytarzem wiodącym do sali rozpraw.
+
+[[Dalej|06]]
+
+
+
+:: Zaatakuj {"position":"200,500","size":"100,100"}
+To było głupie. Dopiero co się obudziłaś, byłaś słaba i zdezorientowana, w dodatku wygłodzona i osłabiona po kilku tygodniach w celi. Strażnik bez problemu uniknął twojego ciosu i boleśnie wykręcił ci rękę.
+
+Nadal unikał twojego spojrzenia. Nawet teraz, gdy pokonał cię i upokorzył.
+
+[[Dalej|Wyciągnij przed siebie ręce]]
+
+
+:: Zaatakuj sędziego {"position":"400,2200","size":"100,100"}
+Przez jeden krótki moment wydaje ci się, że ci się udało. Że twój nagły, niespodziewany zryw zaskoczył otaczających cię strażników, że uda ci się sięgnąć sędziego i odnieść przynajmniej to jedno drobne zwycięstwo. I, może, przy odrobinie szczęścia, straż zabije cię na miejscu, oszczędzając ci dalszych cierpień.
+
+Wtedy posypał się na ciebie grad pięści i kopniaków. Jeden ze strażników podstawił ci nogę, inny chwycił pod ramiona, ułatwiając innym zadawanie ciosów we wrażliwe części ciała.
+
+[[Dalej|22]]

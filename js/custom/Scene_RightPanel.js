@@ -8,8 +8,8 @@ function Scene_RightPanel() {
     this.options=null;
 
     $gamePlayer.center(16, 11);
-    panelWidth = Graphics.boxWidth/4;
-    panelX=panelWidth*3;
+    panelWidth = Graphics.boxWidth/2;
+    panelX=panelWidth;
     SceneManager._scene._spriteset.updatePosition();
 }
 

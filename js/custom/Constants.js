@@ -1,4 +1,4 @@
 var tweefile = "";
-var fontSize = 18;
-const xMargin = 80;
+var fontSize = 26;
+const xMargin = 40;
 const yMargin = 0;

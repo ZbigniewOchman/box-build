@@ -1,11 +1,11 @@
 {
     "name": "rmmz-game",
     "main": "index.html",
-    "chromium-args": "--force-color-profile=srgb",
+    "chromium-args": "--force-color-profile=srgb --disable-devtools",
     "window": {
         "title": "WarShapedBox",
-        "width": 1920,
-        "height": 1080,
+        "width": 1280,
+        "height": 720,
         "position": "center",
         "icon": "icon/icon.png"
     }

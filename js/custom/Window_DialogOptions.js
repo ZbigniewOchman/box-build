@@ -29,7 +29,7 @@ Window_DialogHolder.prototype.resetFontSettings = function () {
 };
 
 Window_DialogOptions.prototype.lineHeight = function() {
-    return 18;
+    return 26;
 };
 
 Window_DialogOptions.prototype.processOk = function() {
