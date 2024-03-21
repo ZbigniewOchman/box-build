@@ -1,5 +1,7 @@
 [
 null,
-{"id":1,"expanded":false,"name":"CargoHold","order":2,"parentId":0,"scrollX":499,"scrollY":256.5,"quick":false},
-{"id":2,"expanded":false,"name":"Quaters","order":1,"parentId":0,"scrollX":789,"scrollY":412.5,"quick":false}
+{"id":1,"expanded":false,"name":"CargoHold","order":2,"parentId":0,"scrollX":423.3333333333333,"scrollY":263,"quick":false},
+{"id":2,"expanded":false,"name":"Quaters","order":1,"parentId":0,"scrollX":788.6666666666666,"scrollY":412.3333333333333,"quick":false},
+{"id":3,"expanded":false,"name":"White","order":3,"parentId":0,"scrollX":2348,"scrollY":2477.6666666666665,"quick":false},
+{"id":4,"expanded":true,"name":"AbbadonShip","order":4,"parentId":0,"scrollX":754,"scrollY":425,"quick":false}
 ]

@@ -19,6 +19,7 @@ const scriptUrls = [
     "js/custom/Scene_RightPanel.js",
     "js/custom/Window_DialogHolder.js",
     "js/custom/Window_DialogOptions.js",
+    "js/custom/TextHelper.js",
     "js/custom/TweeReader.js"
 ];
 

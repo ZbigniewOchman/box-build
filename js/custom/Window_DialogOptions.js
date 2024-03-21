@@ -28,9 +28,6 @@ Window_DialogHolder.prototype.resetFontSettings = function () {
     this.contents.textColor = this.textColor ?? "#FFFFFF";
 };
 
-Window_DialogOptions.prototype.lineHeight = function() {
-    return 26;
-};
 
 Window_DialogOptions.prototype.processOk = function() {
     Window_MenuCommand._lastCommandSymbol = this.currentSymbol();
@@ -40,7 +37,7 @@ Window_DialogOptions.prototype.processOk = function() {
 
 Window_DialogOptions.prototype.drawText = function(text, x, y, maxWidth, align) {
     this.contents.fontSize = fontSize;
-    this.contents.drawText(text, x, y, maxWidth, this.lineHeight(), align);
+    this.contents.drawText(text, x, y, maxWidth, 26, align);
 };
 
 Window_DialogOptions.prototype.makeCommandList = function () {
