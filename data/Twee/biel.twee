@@ -1,0 +1,96 @@
+:: StoryTitle
+Biały pokój
+
+
+:: StoryData
+{
+  "ifid": "8CF49206-E807-4AE5-924B-5521AF8AAA86",
+  "format": "Harlowe",
+  "format-version": "3.3.8",
+  "start": "Untitled Passage",
+  "zoom": 1
+}
+
+
+:: ...jestem? {"position":"600,700","size":"100,100"}
+Za późno. Myśl wymyka ci się z umysłu, a wszystko, co do tej pory było tobą, gaśnie jak zdmuchnięta świeca.
+
+[[GAME OVER]]
+
+
+:: ...w głębokiej dupie {"position":"300,800","size":"100,100"}
+Ta myśl powoduje, że parskasz smiechem. Krótkim, zduszonym i chropowatym śmiechem, ale jest to coś, co słyszysz. Dowód na twoje istnienie. 
+
+[[dalej|Kanna Evey]] 
+
+
+:: 01 {"position":"500,100","size":"100,100"}
+Nie jest to biel śniegu, biel spienionych morskich fal czy biel pierzastych chmur w czasie pogodnego dnia. 
+
+Nie jest to kliniczna biel sterylnych szpitalnych korytarzy czy wojskowych laboratoriów. Nie jest...
+
+Myśl ci ucieka. O czym właściwie myślałaś? 
+
+Gdzie właściwie jesteś?
+
+Kim...?
+
+1. [[Potrząśnij głową|Weź głęboki oddech]]
+2. [[Weź głęboki oddech]]
+
+
+:: GAME OVER {"position":"600,900","size":"100,100"}
+
+
+
+:: Kanna Evey {"position":"400,1000","size":"100,100"}
+To nikła, wątła myśl - w dodatku myśl obciążona wieloma sprzecznymi emocjami - ale to myśl, dzięki której jesteś w stanie zachować świadomość.
+
+Wiesz kim jesteś. 
+
+Wiesz czym jesteś.
+
+
+[[koniec]]
+
+
+:: Untitled Passage {"position":"500,0","size":"100,100"}
+Biel.
+
+Nie. 
+
+To nie jest biel, ale nie umiesz określić tego w żaden inny sposób. To... pustka. Ta przestrzeń między okiem i powieką, która powoduje ciemność, ale która nie jest ciemnością, nie sama w sobie.
+
+Jest czymś innym, jest czystym *brakiem*.
+
+[[dalej|01]]
+
+
+:: Weź głęboki oddech {"position":"500,300","size":"100,100"}
+Twoje myśli wymykają ci, się jedna po drugiej. 
+
+O czym właściwie myślałaś?
+
+Wokół ciebie nie ma niczego, choćby drobnego ciemnijeszego punktu, choćby najcichszego dźwięku, który pomógłby ci zorientować się w tej nie-białej przestrzeni, dał jakikolwiek punkt zaczepienia. Wskazówkę, gdzie właściwie jesteś.
+
+Że w ogóle jesteś.
+
+[[dalej]]
+
+
+:: dalej {"position":"500,425","size":"100,100"}
+"Jestem" starasz się sformułować myśl, chwiejną i wątłą, która próbuje ci się wymknąć.
+
+"Jestem..."
+
+1. [[Kanna Evey]]
+2. [[Kapitan Kanna Evey|Kanna Evey]]
+3. [[Wampirzycą|Kanna Evey]]
+4. [[Buntowniczką|Kanna Evey]]
+5. [[Kosmicznym śmieciarzem|Kanna Evey]]
+6. [[...w głębokiej dupie]]
+7. [[...jestem?]]
+
+
+:: koniec {"position":"400,1125","size":"100,100"}
+
