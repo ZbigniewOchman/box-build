@@ -6,7 +6,7 @@ function Window_DialogOptions(options, sender) {
     this._width = panelWidth;
     
     this._letterWidth = fontSize / 2;
-    this._letterHeight = fontSize + 10;
+    this._letterHeight = fontSize;
 
     this.initialize(...arguments);
     this.opacity = 0;
@@ -18,8 +18,8 @@ Window_DialogOptions.prototype = Object.create(Window_Command.prototype);
 Window_DialogOptions.prototype.constructor = Window_DialogOptions;
 
 Window_DialogOptions.prototype.initialize = function () {
-    const height = (Object.keys(this.options).length + 1) * (this._letterHeight + 4);
-    const rect = new Rectangle(this._x+xMargin, Graphics.height - yMargin - height, this._width - (2*xMargin) , height);
+    const height = (Object.keys(this.options).length + 1) * (this._letterHeight);
+    const rect = new Rectangle(this._x + xMargin, Graphics.height - yMargin - height, this._width - (2*xMargin) , height);
     Window_Command.prototype.initialize.call(this, rect);
 };
 
@@ -27,7 +27,6 @@ Window_DialogHolder.prototype.resetFontSettings = function () {
     this.contents.fontFace = $gameSystem.mainFontFace();
     this.contents.textColor = this.textColor ?? "#FFFFFF";
 };
-
 
 Window_DialogOptions.prototype.processOk = function() {
     Window_MenuCommand._lastCommandSymbol = this.currentSymbol();
@@ -37,7 +36,7 @@ Window_DialogOptions.prototype.processOk = function() {
 
 Window_DialogOptions.prototype.drawText = function(text, x, y, maxWidth, align) {
     this.contents.fontSize = fontSize;
-    this.contents.drawText(text, x, y, maxWidth, 26, align);
+    this.contents.drawText(text, x, y, maxWidth, fontSize, align);
 };
 
 Window_DialogOptions.prototype.makeCommandList = function () {
